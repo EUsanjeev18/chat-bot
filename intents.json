@@ -1,0 +1,100 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hello",
+                "how r u",
+                "whats up",
+                "Hi",
+                "Hey",
+                "Good day",
+                "Is anyone there?"
+            ],
+            "responses":[
+                "Hey Welcome to SRMS Milk Supply",
+                "Hey Buddy whats'up",
+                "Hello, thanks for visiting",
+                "Hi there we welcome you to have business with SRMS Milk Supply",
+                "Hi there how can SRMS Milk supply help?"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you Later",
+                "Bye, thanks for visiting",
+                "Have a nice day",
+                "Bye come back again soon"
+            ]
+        },
+        {
+            "tag":"items",
+            "patterns":[
+                "Which items do you sell",
+                "what kind of items are there",
+                "What do you sell"
+            ],
+            "responses":[
+                "We have Flavoured Milk,Palkova,Butter,Ghee",
+                "We sell Flavoured Milk,Palkova,Butter,Ghee"
+            ]
+        },
+        {
+            "tag":"payments",
+            "patterns": [
+                "Do you take credit card",
+                "Do you allow gpay",
+                "Do you accept Master card",
+                "Can i pay with paytm",
+                "can i pay with cash"
+            ],
+            "responses": [
+                "We accept gpay,paytm,cash,credit card"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?"
+            ],
+            "responses": [
+                "Delivery takes 3 hours",
+                "will be there within three hours"
+            ]
+        },
+        {
+            "tag": "rates",
+            "patterns": [
+                "what is the rate of the products",
+                "can i ask you the rate of milk",
+                "How much is the price of butter",
+                "What price is palkova"
+            ],
+            "responses": [
+                "the Rates are Milk:50,Palkova:30,Butter:150"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "Location",
+            "patterns": [
+                "Can you tell me the location of your company",
+                "Give me the location of your company",
+                "where is your company situated",
+                "Which area is your company present"
+            ],
+            "responses": [
+                "Our business has two locations in Erode near the Railway station and the bus stand.",
+                "Two sites of our business are close to a bus stand and an erode train station."
+            ]
+        }
+    ]
+}
