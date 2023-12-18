@@ -34,7 +34,8 @@
             "patterns":[
                 "Which items do you sell",
                 "what kind of items are there",
-                "What do you sell"
+                "What do you sell",
+                "what do you have"
             ],
             "responses":[
                 "We have Flavoured Milk,Palkova,Butter,Ghee",
